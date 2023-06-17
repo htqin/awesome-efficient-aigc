@@ -57,8 +57,8 @@ This repo collects model quantization resources for AIGC (AI Generated Content) 
 
 ### 2023
 
+- [[CVPR](https://openaccess.thecvf.com/content/CVPR2023/papers/Shang_Post-Training_Quantization_on_Diffusion_Models_CVPR_2023_paper.pdf)] Post-training Quantization on Diffusion Models
 - [[arxiv](https://arxiv.org/abs/2302.04304)] Q-Diffusion: Quantizing Diffusion Models
-- [[arxiv](https://openaccess.thecvf.com/content/CVPR2023/papers/Shang_Post-Training_Quantization_on_Diffusion_Models_CVPR_2023_paper.pdf)] Post-training Quantization on Diffusion Models
 - [[arxiv](https://arxiv.org/abs/2202.00512)] Progressive Distillation for Fast Sampling of Diffusion Models
 - [[arxiv](https://arxiv.org/abs/2210.03142)] On Distillation of Guided Diffusion Models
 - [[arxiv](https://arxiv.org/abs/2211.02048)] Efficient Spatially Sparse Inference for Conditional GANs and Diffusion Models
