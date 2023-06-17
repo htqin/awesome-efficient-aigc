@@ -10,8 +10,7 @@ This repo collects model quantization resources for AIGC (AI Generated Content) 
   - [2021](#2021)
   - [2020](#2020)
   - [2019](#2019)
-
-* [Vision](#VIsion)
+- [Vision](#VIsion)
   - [2023](#2023)
 
 ## Language
