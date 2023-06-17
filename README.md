@@ -1,6 +1,6 @@
 # Awesome Efficient AIGC [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-This repo collects model quantization resources for AIGC (AI Generated Content) to cope with its huge demand for computing resources. We are continuously improving the project. Welcome to PR the works (papers, repositories) that are missed by the repo. Special thanks to [Xingyu Zheng](), [Yifu Ding](https://yifu-ding.github.io/#/), and all researchers who have contributed to this project!
+This repo collects efficient approaches for AIGC (AI Generated Content) to cope with its huge demand for computing resources. We are continuously improving the project. Welcome to PR the works (papers, repositories) that are missed by the repo. Special thanks to [Xingyu Zheng](), [Yifu Ding](https://yifu-ding.github.io/#/), and all researchers who have contributed to this project!
 
 ## Table of Contents
 
