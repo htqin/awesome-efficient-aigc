@@ -17,6 +17,8 @@ This repo collects efficient approaches for AIGC (AI Generated Content) to cope 
 
 ### 2023
 
+- [[arxiv](https://arxiv.org/pdf/2306.11695.pdf)] A Simple and Effective Pruning Approach for Large Language Models [[code](https://github.com/locuslab/wanda)]
+- [[arxiv](https://arxiv.org/abs/2301.00774)] SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot [[code](https://github.com/IST-DASLab/sparsegpt)]
 - [[arxiv](https://arxiv.org/abs/2306.03078)] SpQR: A Sparse-Quantized Representation for Near-Lossless LLM Weight Compression [[code](https://github.com/Vahe1994/SpQR)]
 - [[ArXiv](https://arxiv.org/abs/2306.12929)] Quantizable Transformers: Removing Outliers by Helping Attention Heads Do Nothing
 - [[ArXiv](https://arxiv.org/abs/2306.07629)] SqueezeLLM: Dense-and-Sparse Quantization [[code](https://github.com/SqueezeAILab/SqueezeLLM)]
@@ -42,6 +44,7 @@ This repo collects efficient approaches for AIGC (AI Generated Content) to cope 
 
 - [[ICML](https://proceedings.mlr.press/v139/kim21d.html)] I-BERT: Integer-only BERT Quantization
 - [[ACL](https://aclanthology.org/2021.findings-acl.363)] On the Distribution, Sparsity, and Inference-time Quantization of Attention Values in Transformers
+- [[TACL](https://arxiv.org/abs/2002.11985)] Compressing Large-Scale Transformer-Based Models: A Case Study on BERT
 
 ### 2020
 
@@ -49,6 +52,8 @@ This repo collects efficient approaches for AIGC (AI Generated Content) to cope 
 - [[IJCAI](https://www.ijcai.org/Proceedings/2020/0520.pdf)] Towards Fully 8-bit Integer Inference for the Transformer Model
 - [[EMNLP](https://arxiv.org/abs/2009.12812)] TernaryBERT: Distillation-aware Ultra-low Bit BERT
 - [[AAAI](https://arxiv.org/abs/1909.05840)] Q-BERT: Hessian Based Ultra Low Precision Quantization of BERT
+- [[ACL](https://arxiv.org/abs/2002.08307)] Compressing bert: Studying the effects of weight pruning on transfer learning
+- [[ICLR](https://arxiv.org/abs/1909.11687v1)] Extreme Language Model Compression with Optimal Subwords and Shared Projections
 - [[MICRO](http://arxiv.org/abs/2005.03842)] GOBO: Quantizing Attention-Based NLP Models for Low Latency and Energy Efficient Inference
 
 ### 2019
@@ -56,6 +61,7 @@ This repo collects efficient approaches for AIGC (AI Generated Content) to cope 
 - [[NeurIPS](https://www.emc2-ai.org/assets/docs/neurips-19/emc2-neurips19-paper-31.pdf)] Q8BERT: Quantized 8Bit BERT
 - [[ICML](https://arxiv.org/abs/1906.00532v2)] Efficient 8-Bit Quantization of Transformer Neural Machine Language Translation Model
 - [[NeurIPS](https://www.emc2-ai.org/assets/docs/neurips-19/emc2-neurips19-paper-36.pdf)] Fully Quantized Transformer for Improved Translation
+- [[NeurIPS](https://arxiv.org/abs/1910.01108)] DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter
 
 ## Vision
 
