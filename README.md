@@ -4,7 +4,6 @@ This repo collects efficient approaches for AIGC (AI Generated Content) to cope 
 
 ## Table of Contents
 
-- [Awesome Efficient AIGC ](#awesome-efficient-aigc-)
   - [Table of Contents](#table-of-contents)
   - [Language](#language)
     - [2023](#2023)
