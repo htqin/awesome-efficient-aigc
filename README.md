@@ -17,10 +17,15 @@ This repo collects efficient approaches for AIGC (AI Generated Content) to cope 
 
 ### 2023
 
+**Survey**
+
+- [[arxiv](https://arxiv.org/abs/2308.07633)] A Survey on Model Compression for Large Language Models
+
 **Quantization**
 
 - [[ICLR](https://arxiv.org/abs/2210.17323)] GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers [[code](https://github.com/IST-DASLab/gptq)]
 - [[ISCA](https://dl.acm.org/doi/abs/10.1145/3579371.3589038)] OliVe: Accelerating Large Language Models via Hardware-friendly Outlier-Victim Pair Quantization
+- [[arxiv](https://arxiv.org/abs/2310.00034)] PB-LLM: Partially Binarized Large Language Models
 - [[arxiv](https://arxiv.org/abs/2307.09782)] ZeroQuant-FP: A Leap Forward in LLMs Post-Training W4A8 Quantization Using Floating-Point Formats
 - [[arxiv](https://arxiv.org/abs/2305.12356)] Integer or Floating Point? New Outlooks for Low-Bit Quantization on Large Language Models
 - [[arxiv](https://arxiv.org/abs/2304.01089)] RPTQ: Reorder-based Post-training Quantization for Large Language Models [[code](https://github.com/hahnyuan/RPTQ4LLM)]
@@ -61,6 +66,7 @@ This repo collects efficient approaches for AIGC (AI Generated Content) to cope 
 - [[arxiv](https://arxiv.org/abs/2305.18403)] Pruning Meets Low-Rank Parameter-Efficient Fine-Tuning
 - [[arxiv](https://arxiv.org/abs/2305.14152)] Memory-Efficient Fine-Tuning of Compressed Large Language Models via sub-4-bit Integer Quantization
 - [[arxiv](https://arxiv.org/abs/2305.14314)] QLORA: Efficient Finetuning of Quantized LLMs [[code](https://github.com/artidoro/qlora)]
+- [[arxiv](https://arxiv.org/abs/2309.12307)] LongLoRA: Efficient Fine-tuning of Long-Context Large Language Models [[code](https://github.com/dvlab-research/LongLoRA)]
 
 **Other**
 
@@ -136,13 +142,13 @@ This repo collects efficient approaches for AIGC (AI Generated Content) to cope 
 
 **Quantization**
 
-- [[CVPR](https://openaccess.thecvf.com/content/CVPR2023/papers/Shang_Post-Training_Quantization_on_Diffusion_Models_CVPR_2023_paper.pdf)] Post-training Quantization on Diffusion Models
+- [[CVPR](https://openaccess.thecvf.com/content/CVPR2023/papers/Shang_Post-Training_Quantization_on_Diffusion_Models_CVPR_2023_paper.pdf)] Post-training Quantization on Diffusion Models [[code](https://github.com/42Shawn/PTQ4DM)]
 - [[arxiv](https://arxiv.org/abs/2302.04304)] Q-Diffusion: Quantizing Diffusion Models [[code](https://github.com/Xiuyu-Li/q-diffusion)]
 
 **Pruning and Sparsity**
 
-- [[arxiv](https://arxiv.org/abs/2211.02048)] Efficient Spatially Sparse Inference for Conditional GANs and Diffusion Models
-- [[arxiv](https://arxiv.org/abs/2305.10924)] Structural Pruning for Diffusion Models
+- [[TPAMI](https://arxiv.org/abs/2211.02048)] Efficient Spatially Sparse Inference for Conditional GANs and Diffusion Models [[code](https://github.com/lmxyy/sige)]
+- [[arxiv](https://arxiv.org/abs/2305.10924)] Structural Pruning for Diffusion Models [[code](https://github.com/VainF/Diff-Pruning)]
 
 **Distillation**
 
@@ -156,3 +162,7 @@ This repo collects efficient approaches for AIGC (AI Generated Content) to cope 
 - [[arxiv](https://arxiv.org/abs/2101.02388)] Knowledge Distillation in Iterative Generative Models for Improved Sampling Speed
 - [[arxiv](https://arxiv.org/abs/2305.15798)] On Architectural Compression of Text-to-Image Diffusion Models
 - [[arxiv](https://arxiv.org/abs/2202.00512)] Progressive Distillation for Fast Sampling of Diffusion Models
+
+**Other**
+
+- [[arxiv](https://arxiv.org/abs/2309.10438)] AutoDiffusion: Training-Free Optimization of Time Steps and Architectures for Automated Diffusion Model Acceleration
