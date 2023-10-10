@@ -20,12 +20,14 @@ This repo collects efficient approaches for AIGC (AI Generated Content) to cope 
 **Survey**
 
 - [[arxiv](https://arxiv.org/abs/2308.07633)] A Survey on Model Compression for Large Language Models
+- [[arxiv](https://arxiv.org/abs/2307.08072)] Do Emergent Abilities Exist in Quantized Large Language Models: An Empirical Study
 
 **Quantization**
 
 - [[ICML](https://browse.arxiv.org/abs/2211.10438)] SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models [[code](https://github.com/mit-han-lab/smoothquant)]
 - [[ICLR](https://arxiv.org/abs/2210.17323)] GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers [[code](https://github.com/IST-DASLab/gptq)]
 - [[ISCA](https://dl.acm.org/doi/abs/10.1145/3579371.3589038)] OliVe: Accelerating Large Language Models via Hardware-friendly Outlier-Victim Pair Quantization
+- [[arxiv](https://arxiv.org/abs/2308.06744)] Token-Scaled Logit Distillation for Ternary Weight Generative Language Models
 - [[arxiv](https://arxiv.org/abs/2310.00034)] PB-LLM: Partially Binarized Large Language Models [[code](https://github.com/hahnyuan/BinaryLLM)]
 - [[arxiv](https://arxiv.org/abs/2307.09782)] ZeroQuant-FP: A Leap Forward in LLMs Post-Training W4A8 Quantization Using Floating-Point Formats
 - [[arxiv](https://arxiv.org/abs/2305.12356)] Integer or Floating Point? New Outlooks for Low-Bit Quantization on Large Language Models
@@ -39,14 +41,14 @@ This repo collects efficient approaches for AIGC (AI Generated Content) to cope 
 - [[arxiv](https://arxiv.org/abs/2305.14314)] QLORA: Efficient Finetuning of Quantized LLMs [[code](https://github.com/artidoro/qlora)]
 - [[arxiv](https://arxiv.org/abs/2306.00978)] AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration [[code](https://github.com/mit-han-lab/llm-awq)]
 - [[arxiv](https://arxiv.org/abs/2206.09557)] LUT-GEMM: Quantized Matrix Multiplication based on LUTs for Efficient Inference in Large-Scale Generative Language Models
-- [[arxiv](https://arxiv.org/pdf/2304.09145.pdf)] Outlier Suppression+: Accurate quantization of large language models by equivalent and optimal shifting and scaling
+- [[arxiv](https://arxiv.org/abs/2304.09145)] Outlier Suppression+: Accurate quantization of large language models by equivalent and optimal shifting and scaling
 
 **Pruning and Sparsity**
 
-- [[arxiv](https://arxiv.org/abs/2305.18403)] Pruning Meets Low-Rank Parameter-Efficient Fine-Tuning
-- [[arxiv](https://arxiv.org/abs/2305.11627)] LLM-Pruner: On the Structural Pruning of Large Language Models [[code](https://github.com/horseee/LLM-Pruner)]
-- [[arxiv](https://arxiv.org/pdf/2306.11695.pdf)] A Simple and Effective Pruning Approach for Large Language Models [[code](https://github.com/locuslab/wanda)]
-- [[arxiv](https://arxiv.org/abs/2301.00774)] SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot [[code](https://github.com/IST-DASLab/sparsegpt)]
+- [[ICML](https://arxiv.org/abs/2301.00774)] SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot [[code](https://github.com/IST-DASLab/sparsegpt)]
+- [[ICML](https://arxiv.org/abs/2306.11695)] A Simple and Effective Pruning Approach for Large Language Models [[code](https://github.com/locuslab/wanda)]
+- [[NeurIPS](https://arxiv.org/abs/2305.11627)] LLM-Pruner: On the Structural Pruning of Large Language Models [[code](https://github.com/horseee/LLM-Pruner)]
+- [[arxiv](https://arxiv.org/abs/2305.18403)] LoRAPrune: Pruning Meets Low-Rank Parameter-Efficient Fine-Tuning
 - [[arxiv](https://arxiv.org/abs/2306.03078)] SpQR: A Sparse-Quantized Representation for Near-Lossless LLM Weight Compression [[code](https://github.com/Vahe1994/SpQR)]
 - [[arxiv](https://arxiv.org/abs/2306.07629)] SqueezeLLM: Dense-and-Sparse Quantization [[code](https://github.com/SqueezeAILab/SqueezeLLM)]
 
@@ -56,16 +58,17 @@ This repo collects efficient approaches for AIGC (AI Generated Content) to cope 
 - [[ACL](https://aclanthology.org/2023.acl-long.304/)] SCOTT: Self-Consistent Chain-of-Thought Distillation [[code](https://github.com/wangpf3/consistent-CoT-distillation)]
 - [[ACL](https://aclanthology.org/2023.acl-long.150/)] Symbolic Chain-of-Thought Distillation: Small Models Can Also “Think” Step-by-Step [[code](https://github.com/allenai/cot_distillation)]
 - [[ACL](https://aclanthology.org/2023.acl-long.830/)] Large Language Models Are Reasoning Teachers [[code](https://github.com/itsnamgyu/reasoning-teacher)]
-- [[arxiv](https://arxiv.org/abs/2305.02301)] Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes [[code](https://github.com/google-research/distilling-step-by-step)]
+- [[ACL](https://arxiv.org/abs/2305.02301)] Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes [[code](https://github.com/google-research/distilling-step-by-step)]
 - [[arxiv](https://arxiv.org/abs/2305.12870)] Lion: Adversarial Distillation of Closed-Source Large Language Model [[code](https://github.com/YJiangcm/Lion)]
 - [[arxiv](https://arxiv.org/abs/2306.13649)] GKD: Generalized Knowledge Distillation for Auto-regressive Sequence Models
 - [[arxiv](https://arxiv.org/abs/2306.08543)] Knowledge Distillation of Large Language Models [[code](https://github.com/microsoft/LMOps/tree/main/minillm)]
+- [[arxiv](https://arxiv.org/abs/2308.06744)] Token-Scaled Logit Distillation for Ternary Weight Generative Language Models
 
 **Fine-tuning**
 
 - [[Nature](https://www.nature.com/articles/s42256-023-00626-4)] Parameter-efficient fine-tuning of large-scale pre-trained language models [[code](https://github.com/thunlp/OpenDelta)]
 - [[ACL](https://aclanthology.org/2023.acl-long.830/)] Large Language Models Are Reasoning Teachers [[code](https://github.com/itsnamgyu/reasoning-teacher)]
-- [[arxiv](https://arxiv.org/abs/2305.18403)] Pruning Meets Low-Rank Parameter-Efficient Fine-Tuning
+- [[arxiv](https://arxiv.org/abs/2305.18403)] LoRAPrune: Pruning Meets Low-Rank Parameter-Efficient Fine-Tuning
 - [[arxiv](https://arxiv.org/abs/2305.14152)] Memory-Efficient Fine-Tuning of Compressed Large Language Models via sub-4-bit Integer Quantization
 - [[arxiv](https://arxiv.org/abs/2305.14314)] QLORA: Efficient Finetuning of Quantized LLMs [[code](https://github.com/artidoro/qlora)]
 - [[arxiv](https://arxiv.org/abs/2309.12307)] LongLoRA: Efficient Fine-tuning of Long-Context Large Language Models [[code](https://github.com/dvlab-research/LongLoRA)]
@@ -98,6 +101,7 @@ This repo collects efficient approaches for AIGC (AI Generated Content) to cope 
 **Quantization**
 
 - [[ICML](https://proceedings.mlr.press/v139/kim21d.html)] I-BERT: Integer-only BERT Quantization
+- [[ACL](https://aclanthology.org/2021.acl-long.334/)] BinaryBERT: Pushing the Limit of BERT Quantization
 
 **Pruning and Sparsity**
 
