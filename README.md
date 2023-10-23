@@ -28,6 +28,7 @@ This repo collects efficient approaches for AIGC (AI Generated Content) to cope 
 - [[ICLR](https://arxiv.org/abs/2210.17323)] GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers [[code](https://github.com/IST-DASLab/gptq)]
 - [[EMNLP](https://arxiv.org/abs/2310.05079)] Revisiting Block-based Quantisation: What is Important for Sub-8-bit LLM Inference?
 - [[ISCA](https://dl.acm.org/doi/abs/10.1145/3579371.3589038)] OliVe: Accelerating Large Language Models via Hardware-friendly Outlier-Victim Pair Quantization
+- [[arxiv](https://arxiv.org/abs/2303.08302)] ZeroQuant-V2: Exploring Post-training Quantization in LLMs from Comprehensive Study to Low Rank Compensation
 - [[arxiv](https://arxiv.org/abs/2304.09145)] Outlier Suppression+: Accurate quantization of large language models by equivalent and optimal shifting and scaling
 - [[arxiv](https://arxiv.org/abs/2206.09557)] LUT-GEMM: Quantized Matrix Multiplication based on LUTs for Efficient Inference in Large-Scale Generative Language Models
 - [[arxiv](https://arxiv.org/abs/2306.00978)] AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration [[code](https://github.com/mit-han-lab/llm-awq)]
@@ -47,12 +48,17 @@ This repo collects efficient approaches for AIGC (AI Generated Content) to cope 
 - [[arxiv](https://arxiv.org/abs/2310.00034)] PB-LLM: Partially Binarized Large Language Models [[code](https://github.com/hahnyuan/BinaryLLM)]
 - [[arxiv](https://arxiv.org/abs/2308.06744)] Token-Scaled Logit Distillation for Ternary Weight Generative Language Models
 - [[arxiv](https://arxiv.org/abs/2310.04836)] Dual Grained Quantization: Efficient Fine-Grained Quantization for LLM
+- [[arxiv](https://arxiv.org/abs/2309.01885)] QuantEase: Optimization-based Quantization for Language Models - An Efficient and Intuitive Algorithm
+- [[arxiv](https://arxiv.org/abs/2310.11453)] BitNet: Scaling 1-bit Transformers for Large Language Models [[code](https://github.com/kyegomez/BitNet)]
+
 
 **Pruning and Sparsity**
 
+- [[ICML](https://icml.cc/virtual/2023/oral/25453)] Deja Vu: Contextual Sparsity for Efficient LLMs at Inference Time [[code](https://github.com/FMInference/DejaVu)]
 - [[ICML](https://arxiv.org/abs/2301.00774)] SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot [[code](https://github.com/IST-DASLab/sparsegpt)]
 - [[ICML](https://arxiv.org/abs/2306.11695)] A Simple and Effective Pruning Approach for Large Language Models [[code](https://github.com/locuslab/wanda)]
 - [[NeurIPS](https://arxiv.org/abs/2305.11627)] LLM-Pruner: On the Structural Pruning of Large Language Models [[code](https://github.com/horseee/LLM-Pruner)]
+- [[arxiv](https://arxiv.org/abs/2302.03773)] What Matters In The Structured Pruning of Generative Language Models?
 - [[arxiv](https://arxiv.org/abs/2305.18403)] LoRAPrune: Pruning Meets Low-Rank Parameter-Efficient Fine-Tuning
 - [[arxiv](https://arxiv.org/abs/2306.03078)] SpQR: A Sparse-Quantized Representation for Near-Lossless LLM Weight Compression [[code](https://github.com/Vahe1994/SpQR)]
 - [[arxiv](https://arxiv.org/abs/2306.07629)] SqueezeLLM: Dense-and-Sparse Quantization [[code](https://github.com/SqueezeAILab/SqueezeLLM)]
@@ -66,6 +72,7 @@ This repo collects efficient approaches for AIGC (AI Generated Content) to cope 
 - [[ACL](https://aclanthology.org/2023.acl-long.150/)] Symbolic Chain-of-Thought Distillation: Small Models Can Also “Think” Step-by-Step [[code](https://github.com/allenai/cot_distillation)]
 - [[ACL](https://aclanthology.org/2023.acl-long.830/)] Large Language Models Are Reasoning Teachers [[code](https://github.com/itsnamgyu/reasoning-teacher)]
 - [[ACL](https://arxiv.org/abs/2305.02301)] Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes [[code](https://github.com/google-research/distilling-step-by-step)]
+- [[ACL](https://aclanthology.org/2023.findings-acl.463/)] Cost-effective Distillation of Large Language Models [[code](https://github.com/Sayan21/MAKD)]
 - [[arxiv](https://arxiv.org/abs/2305.12870)] Lion: Adversarial Distillation of Closed-Source Large Language Model [[code](https://github.com/YJiangcm/Lion)]
 - [[arxiv](https://arxiv.org/abs/2306.13649)] GKD: Generalized Knowledge Distillation for Auto-regressive Sequence Models
 - [[arxiv](https://arxiv.org/abs/2306.08543)] Knowledge Distillation of Large Language Models [[code](https://github.com/microsoft/LMOps/tree/main/minillm)]
@@ -155,10 +162,18 @@ This repo collects efficient approaches for AIGC (AI Generated Content) to cope 
 
 ### 2023
 
+**Survey**
+
+- [[arxiv](https://arxiv.org/abs/2304.04262)] A Comprehensive Survey on Knowledge Distillation of Diffusion Models
+
 **Quantization**
 
 - [[CVPR](https://openaccess.thecvf.com/content/CVPR2023/papers/Shang_Post-Training_Quantization_on_Diffusion_Models_CVPR_2023_paper.pdf)] Post-training Quantization on Diffusion Models [[code](https://github.com/42Shawn/PTQ4DM)]
+- [[CVPR](https://arxiv.org/abs/2303.06424)] Regularized Vector Quantization for Tokenized Image Synthesis
 - [[ICCV](https://arxiv.org/abs/2302.04304)] Q-Diffusion: Quantizing Diffusion Models [[code](https://github.com/Xiuyu-Li/q-diffusion)]
+- [[arxiv](https://arxiv.org/abs/2305.10657)] PTQD: Accurate Post-Training Quantization for Diffusion Models
+- [[arxiv](https://arxiv.org/abs/2305.18723)] Towards Accurate Data-free Quantization for Diffusion Models
+- [[arxiv](https://arxiv.org/abs/2306.02316)] Temporal Dynamic Quantization for Diffusion Models
 
 **Pruning and Sparsity**
 
@@ -181,3 +196,4 @@ This repo collects efficient approaches for AIGC (AI Generated Content) to cope 
 **Other**
 
 - [[arxiv](https://arxiv.org/abs/2309.10438)] AutoDiffusion: Training-Free Optimization of Time Steps and Architectures for Automated Diffusion Model Acceleration
+- [[arxiv](https://arxiv.org/abs/2308.10187)] Spiking-Diffusion: Vector Quantized Discrete Diffusion Model with Spiking Neural Networks [[code](https://github.com/Arktis2022/Spiking-Diffusion)]
