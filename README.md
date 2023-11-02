@@ -77,24 +77,34 @@ This repo collects efficient approaches for AIGC (AI Generated Content) to cope 
 - [[arxiv](https://arxiv.org/abs/2310.08659)] LoftQ: LoRA-Fine-Tuning-Aware Quantization for Large Language Models [[code](https://github.com/yxli2123/LoftQ)]
 - [[arxiv](https://arxiv.org/abs/2310.10944)] TEQ: Trainable Equivalent Transformation for Quantization of LLMs [[code](https://github.com/intel/neural-compressor)]
 - [[arxiv](https://arxiv.org/abs/2310.11453)] BitNet: Scaling 1-bit Transformers for Large Language Models [[code](https://github.com/kyegomez/BitNet)]
+- [[arxiv](https://arxiv.org/abs/2310.16836)] LLM-FP4: 4-Bit Floating-Point Quantized Transformers [[code](https://github.com/nbasyl/LLM-FP4)]
+- [[arxiv](https://arxiv.org/abs/2310.16836)] FP8-LM: Training FP8 Large Language Models [[code](https://github.com/Azure/MS-AMP)]
 
 
 **Pruning and Sparsity**
 
 - [[ICLR](https://arxiv.org/abs/2210.06313)] The Lazy Neuron Phenomenon: On Emergence of Activation Sparsity in Transformers [[code](https://github.com/IST-DASLab/gptq)]
+- [[ICLR](https://openreview.net/forum?id=cKlgcx7nSZ)] Prune and Tune: Improving Efficient Pruning Techniques for Massive Language Models
 - [[ICML](https://icml.cc/virtual/2023/oral/25453)] Deja Vu: Contextual Sparsity for Efficient LLMs at Inference Time [[code](https://github.com/FMInference/DejaVu)]
 - [[ICML](https://arxiv.org/abs/2301.00774)] SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot [[code](https://github.com/IST-DASLab/sparsegpt)]
+- [[ICML](https://arxiv.org/abs/2306.11222)] LoSparse: Structured Compression of Large Language Models based on Low-Rank and Sparse Approximation [[code](https://github.com/yxli2123/LoSparse)]
 - [[ICML](https://arxiv.org/abs/2306.11695)] A Simple and Effective Pruning Approach for Large Language Models [[code](https://github.com/locuslab/wanda)]
 - [[NeurIPS](https://arxiv.org/abs/2305.11627)] LLM-Pruner: On the Structural Pruning of Large Language Models [[code](https://github.com/horseee/LLM-Pruner)]
 - [[ACL](https://aclanthology.org/2023.findings-acl.15/)] Boost Transformer-based Language Models with GPU-Friendly Sparsity and Quantization
+- [[AutoML](https://openreview.net/forum?id=SHlZcInS6C)] Structural Pruning of Large Language Models via Neural Architecture Search
+- [[VLDB](https://arxiv.org/abs/2309.10285)] Flash-LLM: Enabling Cost-Effective and Highly-Efficient Large Generative Model Inference with Unstructured Sparsity [[code](https://github.com/AlibabaResearch/flash-llm)]
 - [[arxiv](https://arxiv.org/abs/2302.03773)] What Matters In The Structured Pruning of Generative Language Models?
 - [[arxiv](https://arxiv.org/abs/2305.18403)] LoRAPrune: Pruning Meets Low-Rank Parameter-Efficient Fine-Tuning
 - [[arxiv](https://arxiv.org/abs/2306.03078)] SpQR: A Sparse-Quantized Representation for Near-Lossless LLM Weight Compression [[code](https://github.com/Vahe1994/SpQR)]
 - [[arxiv](https://arxiv.org/abs/2306.07629)] SqueezeLLM: Dense-and-Sparse Quantization [[code](https://github.com/SqueezeAILab/SqueezeLLM)]
+- [[arxiv](https://arxiv.org/abs/2309.09507)] Pruning Large Language Models via Accuracy Predictor
 - [[arxiv](https://arxiv.org/abs/2310.06694)] Sheared LLaMA: Accelerating Language Model Pre-training via Structured Pruning [[code](https://github.com/princeton-nlp/LLM-Shearing)]
 - [[arxiv](https://arxiv.org/abs/2310.05175)] Outlier Weighed Layerwise Sparsity (OWL): A Missing Secret Sauce for Pruning LLMs to High Sparsity [[code](https://github.com/luuyin/OWL)]
+- [[arxiv](https://arxiv.org/abs/2310.02277)] Junk DNA Hypothesis: A Task-Centric Angle of LLM Pre-trained Weights through Sparsity [[code](https://github.com/VITA-Group/Junk_DNA_Hypothesis.git)]
+- [[arxiv](https://arxiv.org/abs/2310.05015)] Compresso: Structured Pruning with Collaborative Prompting Learns Compact Large Language Models [[code](https://github.com/microsoft/Moonlit/tree/main/Compresso)]
 - [[arxiv](https://arxiv.org/abs/2310.08915)] Dynamic Sparse No Training: Training-Free Fine-tuning for Sparse LLMs [[code](https://github.com/zyxxmu/DSnoT)]
 - [[arxiv](https://arxiv.org/abs/2310.09499)] One-Shot Sensitivity-Aware Mixed Sparsity Pruning for Large Language Models
+- [[arxiv](https://arxiv.org/abs/2310.15929)] E-Sparse: Boosting the Large Language Model Inference through Entropy-based N:M Sparsity
 
 **Distillation**
 
@@ -104,6 +114,9 @@ This repo collects efficient approaches for AIGC (AI Generated Content) to cope 
 - [[ACL](https://aclanthology.org/2023.acl-long.830/)] Large Language Models Are Reasoning Teachers [[code](https://github.com/itsnamgyu/reasoning-teacher)]
 - [[ACL](https://arxiv.org/abs/2305.02301)] Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes [[code](https://github.com/google-research/distilling-step-by-step)]
 - [[ACL](https://aclanthology.org/2023.findings-acl.463/)] Cost-effective Distillation of Large Language Models [[code](https://github.com/Sayan21/MAKD)]
+- [[ACL](https://aclanthology.org/2023.acl-long.471/)] AD-KD: Attribution-Driven Knowledge Distillation for Language Model Compression
+- [[EMNLP](https://arxiv.org/abs/2310.13332)] Democratizing Reasoning Ability: Tailored Learning from Large Language Model [[code](https://github.com/Raibows/Learn-to-Reason)]
+- [[EMNLP](https://arxiv.org/abs/2310.14747)] MCC-KD: Multi-CoT Consistent Knowledge Distillation
 - [[arxiv](https://arxiv.org/abs/2305.12870)] Lion: Adversarial Distillation of Closed-Source Large Language Model [[code](https://github.com/YJiangcm/Lion)]
 - [[arxiv](https://arxiv.org/abs/2306.13649)] GKD: Generalized Knowledge Distillation for Auto-regressive Sequence Models
 - [[arxiv](https://arxiv.org/abs/2306.08543)] Knowledge Distillation of Large Language Models [[code](https://github.com/microsoft/LMOps/tree/main/minillm)]
@@ -127,7 +140,7 @@ This repo collects efficient approaches for AIGC (AI Generated Content) to cope 
 - [[EMNLP](https://arxiv.org/abs/2310.05736)] LLMLingua: Compressing Prompts for Accelerated Inference of Large Language Models [[code](https://aka.ms/LLMLingua)]
 - [[arxiv](https://arxiv.org/abs/2305.11186)] Compress, Then Prompt: Improving Accuracy-Efficiency Trade-off of LLM Inference with Transferable Prompt
 - [[arxiv](https://arxiv.org/abs/2310.05869)] HyperAttention: Long-context Attention in Near-Linear Time
-
+- [[arxiv](https://arxiv.org/abs/2310.01801)] Model Tells You What to Discard: Adaptive KV Cache Compression for LLMs
 
 ### 2022
 
@@ -209,6 +222,7 @@ This repo collects efficient approaches for AIGC (AI Generated Content) to cope 
 - [[arxiv](https://arxiv.org/abs/2305.10657)] PTQD: Accurate Post-Training Quantization for Diffusion Models
 - [[arxiv](https://arxiv.org/abs/2305.18723)] Towards Accurate Data-free Quantization for Diffusion Models
 - [[arxiv](https://arxiv.org/abs/2306.02316)] Temporal Dynamic Quantization for Diffusion Models
+- [[arxiv](https://arxiv.org/abs/2310.03270)] EfficientDM: Efficient Quantization-Aware Fine-Tuning of Low-Bit Diffusion Models
 
 **Pruning and Sparsity**
 
