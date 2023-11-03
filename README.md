@@ -78,7 +78,7 @@ This repo collects efficient approaches for AIGC (AI Generated Content) to cope 
 - [[arxiv](https://arxiv.org/abs/2310.10944)] TEQ: Trainable Equivalent Transformation for Quantization of LLMs [[code](https://github.com/intel/neural-compressor)]
 - [[arxiv](https://arxiv.org/abs/2310.11453)] BitNet: Scaling 1-bit Transformers for Large Language Models [[code](https://github.com/kyegomez/BitNet)]
 - [[arxiv](https://arxiv.org/abs/2310.16836)] LLM-FP4: 4-Bit Floating-Point Quantized Transformers [[code](https://github.com/nbasyl/LLM-FP4)]
-- [[arxiv](https://arxiv.org/abs/2310.16836)] FP8-LM: Training FP8 Large Language Models [[code](https://github.com/Azure/MS-AMP)]
+- [[arxiv](https://arxiv.org/abs/2310.18313)] FP8-LM: Training FP8 Large Language Models [[code](https://github.com/Azure/MS-AMP)]
 
 
 **Pruning and Sparsity**
