@@ -20,7 +20,6 @@ This repo collects efficient approaches for AIGC (AI Generated Content) to cope 
 **Survey**
 
 - [[arxiv](https://arxiv.org/abs/2308.07633)] A Survey on Model Compression for Large Language Models
-- [[arxiv](https://arxiv.org/abs/2307.08072)] Do Emergent Abilities Exist in Quantized Large Language Models: An Empirical Study
 
 **Quantization**
 
@@ -34,6 +33,7 @@ This repo collects efficient approaches for AIGC (AI Generated Content) to cope 
 - [[ACL](https://aclanthology.org/2023.findings-acl.15/)] Boost Transformer-based Language Models with GPU-Friendly Sparsity and Quantization
 - [[EMNLP](https://arxiv.org/abs/2310.05079)] Revisiting Block-based Quantisation: What is Important for Sub-8-bit LLM Inference?
 - [[EMNLP](https://arxiv.org/abs/2310.13315)] Zero-Shot Sharpness-Aware Quantization for Pre-trained Language Models
+- [[EMNLP](https://arxiv.org/abs/2310.16836)] LLM-FP4: 4-Bit Floating-Point Quantized Transformers [[code](https://github.com/nbasyl/LLM-FP4)]
 - [[ISCA](https://dl.acm.org/doi/abs/10.1145/3579371.3589038)] OliVe: Accelerating Large Language Models via Hardware-friendly Outlier-Victim Pair Quantization
 - [[arxiv](https://arxiv.org/abs/2303.08302)] ZeroQuant-V2: Exploring Post-training Quantization in LLMs from Comprehensive Study to Low Rank Compensation
 - [[arxiv](https://arxiv.org/abs/2304.09145)] Outlier Suppression+: Accurate quantization of large language models by equivalent and optimal shifting and scaling
@@ -54,6 +54,7 @@ This repo collects efficient approaches for AIGC (AI Generated Content) to cope 
 - [[arxiv](https://arxiv.org/abs/2305.12356)] Integer or Floating Point? New Outlooks for Low-Bit Quantization on Large Language Models
 - [[arxiv](https://arxiv.org/abs/2306.08162)] INT2.1: Towards Fine-Tunable Quantized Large Language Models with Error Correction through Low-Rank Adaptation
 - [[arxiv](https://arxiv.org/abs/2307.03712)] INT-FP-QSim: Mixed Precision and Formats For Large Language Models and Vision Transformers [[code](https://github.com/lightmatter-ai/INT-FP-QSim)]
+- [[arxiv](https://arxiv.org/abs/2307.08072)] Do Emergent Abilities Exist in Quantized Large Language Models: An Empirical Study
 - [[arxiv](https://arxiv.org/abs/2307.09782)] ZeroQuant-FP: A Leap Forward in LLMs Post-Training W4A8 Quantization Using Floating-Point Formats
 - [[arxiv](https://arxiv.org/abs/2308.05600)] NUPES : Non-Uniform Post-Training Quantization via Power Exponent Search
 - [[arxiv](https://arxiv.org/abs/2308.06744)] Token-Scaled Logit Distillation for Ternary Weight Generative Language Models
@@ -77,18 +78,20 @@ This repo collects efficient approaches for AIGC (AI Generated Content) to cope 
 - [[arxiv](https://arxiv.org/abs/2310.08659)] LoftQ: LoRA-Fine-Tuning-Aware Quantization for Large Language Models [[code](https://github.com/yxli2123/LoftQ)]
 - [[arxiv](https://arxiv.org/abs/2310.10944)] TEQ: Trainable Equivalent Transformation for Quantization of LLMs [[code](https://github.com/intel/neural-compressor)]
 - [[arxiv](https://arxiv.org/abs/2310.11453)] BitNet: Scaling 1-bit Transformers for Large Language Models [[code](https://github.com/kyegomez/BitNet)]
-- [[arxiv](https://arxiv.org/abs/2310.16836)] LLM-FP4: 4-Bit Floating-Point Quantized Transformers [[code](https://github.com/nbasyl/LLM-FP4)]
 - [[arxiv](https://arxiv.org/abs/2310.18313)] FP8-LM: Training FP8 Large Language Models [[code](https://github.com/Azure/MS-AMP)]
+- [[arxiv](https://arxiv.org/abs/2310.19102)] Atom: Low-bit Quantization for Efficient and Accurate LLM Serving [[code](https://github.com/efeslab/Atom)]
+- [[arxiv](https://arxiv.org/abs/2311.01305)] AWEQ: Post-Training Quantization with Activation-Weight Equalization for Large Language Models
+- [[arxiv](https://arxiv.org/abs/2311.01792)] AFPQ: Asymmetric Floating Point Quantization for LLMs [[code](https://github.com/zhangsichengsjtu/AFPQ)]
 
 
 **Pruning and Sparsity**
 
-- [[ICLR](https://arxiv.org/abs/2210.06313)] The Lazy Neuron Phenomenon: On Emergence of Activation Sparsity in Transformers [[code](https://github.com/IST-DASLab/gptq)]
-- [[ICLR](https://openreview.net/forum?id=cKlgcx7nSZ)] Prune and Tune: Improving Efficient Pruning Techniques for Massive Language Models
 - [[ICML](https://icml.cc/virtual/2023/oral/25453)] Deja Vu: Contextual Sparsity for Efficient LLMs at Inference Time [[code](https://github.com/FMInference/DejaVu)]
 - [[ICML](https://arxiv.org/abs/2301.00774)] SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot [[code](https://github.com/IST-DASLab/sparsegpt)]
 - [[ICML](https://arxiv.org/abs/2306.11222)] LoSparse: Structured Compression of Large Language Models based on Low-Rank and Sparse Approximation [[code](https://github.com/yxli2123/LoSparse)]
 - [[ICML](https://arxiv.org/abs/2306.11695)] A Simple and Effective Pruning Approach for Large Language Models [[code](https://github.com/locuslab/wanda)]
+- [[ICLR](https://arxiv.org/abs/2210.06313)] The Lazy Neuron Phenomenon: On Emergence of Activation Sparsity in Transformers [[code](https://github.com/IST-DASLab/gptq)]
+- [[ICLR](https://openreview.net/forum?id=cKlgcx7nSZ)] Prune and Tune: Improving Efficient Pruning Techniques for Massive Language Models
 - [[NeurIPS](https://arxiv.org/abs/2305.11627)] LLM-Pruner: On the Structural Pruning of Large Language Models [[code](https://github.com/horseee/LLM-Pruner)]
 - [[ACL](https://aclanthology.org/2023.findings-acl.15/)] Boost Transformer-based Language Models with GPU-Friendly Sparsity and Quantization
 - [[AutoML](https://openreview.net/forum?id=SHlZcInS6C)] Structural Pruning of Large Language Models via Neural Architecture Search
@@ -105,22 +108,35 @@ This repo collects efficient approaches for AIGC (AI Generated Content) to cope 
 - [[arxiv](https://arxiv.org/abs/2310.08915)] Dynamic Sparse No Training: Training-Free Fine-tuning for Sparse LLMs [[code](https://github.com/zyxxmu/DSnoT)]
 - [[arxiv](https://arxiv.org/abs/2310.09499)] One-Shot Sensitivity-Aware Mixed Sparsity Pruning for Large Language Models
 - [[arxiv](https://arxiv.org/abs/2310.15929)] E-Sparse: Boosting the Large Language Model Inference through Entropy-based N:M Sparsity
+- [[arxiv](https://arxiv.org/abs/2310.18356)] LoRAShear: Efficient Large Language Model Structured Pruning and Knowledge Recovery [[code](https://github.com/microsoft/lorashear)]
 
 **Distillation**
 
-- [[ACL](https://aclanthology.org/2023.findings-acl.441/)] Distilling Reasoning Capabilities into Smaller Language Models
+- [[ACL](https://aclanthology.org/2023.acl-long.150/)] Symbolic Chain-of-Thought Distillation: Small Models Can Also "Think" Step-by-Step [[code](https://github.com/allenai/cot_distillation)]
+- [[ACL](https://aclanthology.org/2023.acl-long.249/)] Lifting the Curse of Capacity Gap in Distilling Language Models [[code](https://github.com/GeneZC/MiniMoE)]
+- [[ACL](https://aclanthology.org/2023.acl-long.302/)] DISCO: Distilling Counterfactuals with Large Language Models [[code](https://github.com/eric11eca/disco)]
 - [[ACL](https://aclanthology.org/2023.acl-long.304/)] SCOTT: Self-Consistent Chain-of-Thought Distillation [[code](https://github.com/wangpf3/consistent-CoT-distillation)]
-- [[ACL](https://aclanthology.org/2023.acl-long.150/)] Symbolic Chain-of-Thought Distillation: Small Models Can Also “Think” Step-by-Step [[code](https://github.com/allenai/cot_distillation)]
-- [[ACL](https://aclanthology.org/2023.acl-long.830/)] Large Language Models Are Reasoning Teachers [[code](https://github.com/itsnamgyu/reasoning-teacher)]
-- [[ACL](https://arxiv.org/abs/2305.02301)] Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes [[code](https://github.com/google-research/distilling-step-by-step)]
-- [[ACL](https://aclanthology.org/2023.findings-acl.463/)] Cost-effective Distillation of Large Language Models [[code](https://github.com/Sayan21/MAKD)]
 - [[ACL](https://aclanthology.org/2023.acl-long.471/)] AD-KD: Attribution-Driven Knowledge Distillation for Language Model Compression
+- [[ACL](https://aclanthology.org/2023.acl-long.830/)] Large Language Models Are Reasoning Teachers [[code](https://github.com/itsnamgyu/reasoning-teacher)]
+- [[ACL](https://aclanthology.org/2023.findings-acl.441/)] Distilling Reasoning Capabilities into Smaller Language Models
+- [[ACL](https://aclanthology.org/2023.findings-acl.463/)] Cost-effective Distillation of Large Language Models [[code](https://github.com/Sayan21/MAKD)]
+- [[ACL](https://aclanthology.org/2023.findings-acl.507/)] Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes [[code](https://github.com/google-research/distilling-step-by-step)]
 - [[EMNLP](https://arxiv.org/abs/2310.13332)] Democratizing Reasoning Ability: Tailored Learning from Large Language Model [[code](https://github.com/Raibows/Learn-to-Reason)]
+- [[EMNLP](https://arxiv.org/abs/2310.14192)] PromptMix: A Class Boundary Augmentation Method for Large Language Model Distillation [[code](https://github.com/ServiceNow/PromptMix-EMNLP-2023)]
 - [[EMNLP](https://arxiv.org/abs/2310.14747)] MCC-KD: Multi-CoT Consistent Knowledge Distillation
+- [[arxiv](https://arxiv.org/abs/2304.14402)] LaMini-LM: A Diverse Herd of Distilled Models from Large-Scale Instructions [[code](https://github.com/mbzuai-nlp/LaMini-LM)]
+- [[arxiv](https://arxiv.org/abs/2305.12330)] Task-agnostic Distillation of Encoder-Decoder Language Models
 - [[arxiv](https://arxiv.org/abs/2305.12870)] Lion: Adversarial Distillation of Closed-Source Large Language Model [[code](https://github.com/YJiangcm/Lion)]
-- [[arxiv](https://arxiv.org/abs/2306.13649)] GKD: Generalized Knowledge Distillation for Auto-regressive Sequence Models
+- [[arxiv](https://arxiv.org/abs/2305.13888)] PaD: Program-aided Distillation Specializes Large Models in Reasoning
+- [[arxiv](https://arxiv.org/abs/2305.14864)] Large Language Model Distillation Doesn't Need a Teacher
+ [[code](https://github.com/ananyahjha93/llm-distill)]
+- [[arxiv](https://arxiv.org/abs/2305.15717)] The False Promise of Imitating Proprietary LLMs
 - [[arxiv](https://arxiv.org/abs/2306.08543)] Knowledge Distillation of Large Language Models [[code](https://github.com/microsoft/LMOps/tree/main/minillm)]
+- [[arxiv](https://arxiv.org/abs/2306.13649)] GKD: Generalized Knowledge Distillation for Auto-regressive Sequence Models
+- [[arxiv](https://arxiv.org/abs/2306.14122)] Chain-of-Thought Prompt Distillation for Multimodal Named Entity Recognition and Multimodal Relation Extraction
+- [[arxiv](https://arxiv.org/abs/2308.04679)] Sci-CoT: Leveraging Large Language Models for Enhanced Knowledge Distillation in Small Models for Scientific QA
 - [[arxiv](https://arxiv.org/abs/2308.06744)] Token-Scaled Logit Distillation for Ternary Weight Generative Language Models
+- [[arxiv](https://arxiv.org/abs/2310.02421)] Can a student Large Language Model perform as well as it's teacher?
 
 **Fine-tuning**
 
@@ -171,6 +187,10 @@ This repo collects efficient approaches for AIGC (AI Generated Content) to cope 
 **Pruning and Sparsity**
 
 - [[ACL](https://aclanthology.org/2021.findings-acl.363)] On the Distribution, Sparsity, and Inference-time Quantization of Attention Values in Transformers
+
+**Distillation**
+
+- [[ACL](https://aclanthology.org/2021.findings-acl.387/)] One Teacher is Enough? Pre-trained Language Model Distillation from Multiple Teachers
 
 **Survey**
 
