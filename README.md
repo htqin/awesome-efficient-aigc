@@ -20,6 +20,7 @@ This repo collects efficient approaches for AIGC (AI Generated Content) to cope 
 **Survey**
 
 - [[arxiv](https://arxiv.org/abs/2308.07633)] A Survey on Model Compression for Large Language Models
+- [[JSA](https://www.sciencedirect.com/science/article/abs/pii/S1383762123001698?casa_token=1Hdz_VnQpOIAAAAA:7OGh6gYWawUHYKBZ3biSHaq-F7UaT8-7O2XFbOvK5YTkAuofrm-Fj8KNyHoe3G5wGEJTMWEA4Pnt)] A survey of techniques for optimizing transformer inference
 
 **Quantization**
 
@@ -244,6 +245,7 @@ This repo collects efficient approaches for AIGC (AI Generated Content) to cope 
 - [[arxiv](https://arxiv.org/abs/2305.18723)] Towards Accurate Data-free Quantization for Diffusion Models
 - [[arxiv](https://arxiv.org/abs/2309.15505)] Finite Scalar Quantization: VQ-VAE Made Simple [[code](https://github.com/google-research/google-research/tree/master/fsq)]
 - [[arxiv](https://arxiv.org/abs/2310.03270)] EfficientDM: Efficient Quantization-Aware Fine-Tuning of Low-Bit Diffusion Models
+- [[ICLR](https://openreview.net/forum?id=3itjR9QxFw)]Analog Bits: Generating Discrete Data using Diffusion Models with Self-Conditioning 
 
 **Pruning and Sparsity**
 
