@@ -4,6 +4,7 @@ This repo collects efficient approaches for AIGC (AI Generated Content) to cope 
 
 ## Table of Contents
 
+  - [Survey](#survey)
   - [Language](#language)
     - [2023](#2023)
     - [2022](#2022)
@@ -13,14 +14,16 @@ This repo collects efficient approaches for AIGC (AI Generated Content) to cope 
   - [Vision](#vision)
     - [2023](#2023-1)
 
+## Survey
+
+- [[JSA](https://www.sciencedirect.com/science/article/abs/pii/S1383762123001698?casa_token=1Hdz_VnQpOIAAAAA:7OGh6gYWawUHYKBZ3biSHaq-F7UaT8-7O2XFbOvK5YTkAuofrm-Fj8KNyHoe3G5wGEJTMWEA4Pnt)] A Survey of Techniques for Optimizing Transformer Inference
+- [[TACL](https://arxiv.org/abs/2002.11985)] Compressing Large-Scale Transformer-Based Models: A Case Study on BERT
+- [[arxiv](https://arxiv.org/abs/2308.07633)] A Survey on Model Compression for Large Language Models
+- [[arxiv](https://arxiv.org/abs/2304.04262)] A Comprehensive Survey on Knowledge Distillation of Diffusion Models
+
 ## Language
 
 ### 2023
-
-**Survey**
-
-- [[arxiv](https://arxiv.org/abs/2308.07633)] A Survey on Model Compression for Large Language Models
-- [[JSA](https://www.sciencedirect.com/science/article/abs/pii/S1383762123001698?casa_token=1Hdz_VnQpOIAAAAA:7OGh6gYWawUHYKBZ3biSHaq-F7UaT8-7O2XFbOvK5YTkAuofrm-Fj8KNyHoe3G5wGEJTMWEA4Pnt)] A survey of techniques for optimizing transformer inference
 
 **Quantization**
 
@@ -93,6 +96,7 @@ This repo collects efficient approaches for AIGC (AI Generated Content) to cope 
 - [[ICML](https://arxiv.org/abs/2306.11695)] A Simple and Effective Pruning Approach for Large Language Models [[code](https://github.com/locuslab/wanda)]
 - [[ICLR](https://arxiv.org/abs/2210.06313)] The Lazy Neuron Phenomenon: On Emergence of Activation Sparsity in Transformers [[code](https://github.com/IST-DASLab/gptq)]
 - [[ICLR](https://openreview.net/forum?id=cKlgcx7nSZ)] Prune and Tune: Improving Efficient Pruning Techniques for Massive Language Models
+- [[NeurIPS](https://arxiv.org/abs/2305.14314)] Outlier Suppression: Pushing the Limit of Low-bit Transformer Language Models [[code](https://github.com/wimh966/outlier_suppression)]
 - [[NeurIPS](https://arxiv.org/abs/2305.11627)] LLM-Pruner: On the Structural Pruning of Large Language Models [[code](https://github.com/horseee/LLM-Pruner)]
 - [[ACL](https://aclanthology.org/2023.findings-acl.15/)] Boost Transformer-based Language Models with GPU-Friendly Sparsity and Quantization
 - [[AutoML](https://openreview.net/forum?id=SHlZcInS6C)] Structural Pruning of Large Language Models via Neural Architecture Search
@@ -193,10 +197,6 @@ This repo collects efficient approaches for AIGC (AI Generated Content) to cope 
 
 - [[ACL](https://aclanthology.org/2021.findings-acl.387/)] One Teacher is Enough? Pre-trained Language Model Distillation from Multiple Teachers
 
-**Survey**
-
-- [[TACL](https://arxiv.org/abs/2002.11985)] Compressing Large-Scale Transformer-Based Models: A Case Study on BERT
-
 ### 2020
 
 **Quantization**
@@ -231,12 +231,9 @@ This repo collects efficient approaches for AIGC (AI Generated Content) to cope 
 
 ### 2023
 
-**Survey**
-
-- [[arxiv](https://arxiv.org/abs/2304.04262)] A Comprehensive Survey on Knowledge Distillation of Diffusion Models
-
 **Quantization**
 
+- [[ICLR](https://openreview.net/forum?id=3itjR9QxFw)] Analog Bits: Generating Discrete Data using Diffusion Models with Self-Conditioning 
 - [[CVPR](https://openaccess.thecvf.com/content/CVPR2023/papers/Shang_Post-Training_Quantization_on_Diffusion_Models_CVPR_2023_paper.pdf)] Post-training Quantization on Diffusion Models [[code](https://github.com/42Shawn/PTQ4DM)]
 - [[CVPR](https://arxiv.org/abs/2303.06424)] Regularized Vector Quantization for Tokenized Image Synthesis
 - [[ICCV](https://arxiv.org/abs/2302.04304)] Q-Diffusion: Quantizing Diffusion Models [[code](https://github.com/Xiuyu-Li/q-diffusion)]
@@ -245,7 +242,6 @@ This repo collects efficient approaches for AIGC (AI Generated Content) to cope 
 - [[arxiv](https://arxiv.org/abs/2305.18723)] Towards Accurate Data-free Quantization for Diffusion Models
 - [[arxiv](https://arxiv.org/abs/2309.15505)] Finite Scalar Quantization: VQ-VAE Made Simple [[code](https://github.com/google-research/google-research/tree/master/fsq)]
 - [[arxiv](https://arxiv.org/abs/2310.03270)] EfficientDM: Efficient Quantization-Aware Fine-Tuning of Low-Bit Diffusion Models
-- [[ICLR](https://openreview.net/forum?id=3itjR9QxFw)]Analog Bits: Generating Discrete Data using Diffusion Models with Self-Conditioning 
 
 **Pruning and Sparsity**
 
