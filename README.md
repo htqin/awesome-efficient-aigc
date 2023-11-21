@@ -129,6 +129,7 @@ This repo collects efficient approaches for AIGC (AI Generated Content) to cope 
 - [[EMNLP](https://arxiv.org/abs/2310.13332)] Democratizing Reasoning Ability: Tailored Learning from Large Language Model [[code](https://github.com/Raibows/Learn-to-Reason)]
 - [[EMNLP](https://arxiv.org/abs/2310.14192)] PromptMix: A Class Boundary Augmentation Method for Large Language Model Distillation [[code](https://github.com/ServiceNow/PromptMix-EMNLP-2023)]
 - [[EMNLP](https://arxiv.org/abs/2310.14747)] MCC-KD: Multi-CoT Consistent Knowledge Distillation
+- [[EMNLP](https://arxiv.org/abs/2311.05161)] Enhancing Computation Efficiency in Large Language Models through Weight and Activation Quantization
 - [[arxiv](https://arxiv.org/abs/2304.14402)] LaMini-LM: A Diverse Herd of Distilled Models from Large-Scale Instructions [[code](https://github.com/mbzuai-nlp/LaMini-LM)]
 - [[arxiv](https://arxiv.org/abs/2305.12330)] Task-agnostic Distillation of Encoder-Decoder Language Models
 - [[arxiv](https://arxiv.org/abs/2305.12870)] Lion: Adversarial Distillation of Closed-Source Large Language Model [[code](https://github.com/YJiangcm/Lion)]
@@ -142,6 +143,8 @@ This repo collects efficient approaches for AIGC (AI Generated Content) to cope 
 - [[arxiv](https://arxiv.org/abs/2308.04679)] Sci-CoT: Leveraging Large Language Models for Enhanced Knowledge Distillation in Small Models for Scientific QA
 - [[arxiv](https://arxiv.org/abs/2308.06744)] Token-Scaled Logit Distillation for Ternary Weight Generative Language Models
 - [[arxiv](https://arxiv.org/abs/2310.02421)] Can a student Large Language Model perform as well as it's teacher?
+- [[arxiv](https://arxiv.org/abs/2311.09550)] A Speed Odyssey for Deployable Quantization of LLMs
+- [[arxiv](https://arxiv.org/abs/2311.09755)] How Does Calibration Data Affect the Post-training Pruning and Quantization of Large Language Models?
 
 **Fine-tuning**
 
@@ -158,10 +161,23 @@ This repo collects efficient approaches for AIGC (AI Generated Content) to cope 
 
 **Other**
 
+- [[ACL](https://aclanthology.org/2023.acl-long.172/)] Did You Read the Instructions? Rethinking the Effectiveness of Task Definitions in Instruction Learning [[code](https://github.com/fanyin3639/Rethinking-instruction-effectiveness)]
+- [[EMNLP](https://arxiv.org/abs/2305.14788)] Adapting Language Models to Compress Contexts [[code](https://github.com/princeton-nlp/AutoCompressors)]
 - [[EMNLP](https://arxiv.org/abs/2310.05736)] LLMLingua: Compressing Prompts for Accelerated Inference of Large Language Models [[code](https://aka.ms/LLMLingua)]
+- [[EMNLP](https://arxiv.org/abs/2310.06201)] Compressing Context to Enhance Inference Efficiency of Large Language Models [[code](https://github.com/)]
+- [[EMNLP](https://arxiv.org/abs/2301.08721)] Batch Prompting: Efficient Inference with Large Language Model APIs [[code](https://github.com/xlang-ai/batch-prompting)]
+- [[arxiv](https://arxiv.org/abs/2304.08467
+)] Learning to Compress Prompts with Gist Tokens [[code](https://github.com/jayelm/gisting)]
+- [[arxiv](https://arxiv.org/abs/2305.11170)] Efficient Prompting via Dynamic In-Context Learning
 - [[arxiv](https://arxiv.org/abs/2305.11186)] Compress, Then Prompt: Improving Accuracy-Efficiency Trade-off of LLM Inference with Transferable Prompt
-- [[arxiv](https://arxiv.org/abs/2310.05869)] HyperAttention: Long-context Attention in Near-Linear Time
+- [[arxiv](https://arxiv.org/abs/2307.06945)] In-context Autoencoder for Context Compression in a Large Language Model [[code](https://github.com/getao/icae)]
+- [[arxiv](https://arxiv.org/abs/2308.08758)] Discrete Prompt Compression with Reinforcement Learning
+- [[arxiv](https://arxiv.org/abs/2309.00384)] BatchPrompt: Accomplish more with less
+- [[arxiv](https://arxiv.org/abs/2310.00867)] (Dynamic) Prompting might be all you need to repair Compressed LLMs
 - [[arxiv](https://arxiv.org/abs/2310.01801)] Model Tells You What to Discard: Adaptive KV Cache Compression for LLMs
+- [[arxiv](https://arxiv.org/abs/2310.04408)] RECOMP: Improving Retrieval-Augmented LMs with Compression and Selective Augmentation [[code](https://github.com/carriex/recomp)]
+- [[arxiv](https://arxiv.org/abs/2310.05869)] HyperAttention: Long-context Attention in Near-Linear Time
+- [[arxiv](https://arxiv.org/abs/2310.06839)] LongLLMLingua: Accelerating and Enhancing LLMs in Long Context Scenarios via Prompt Compression [[code](https://aka.ms/LLMLingua)]
 
 ### 2022
 
@@ -171,6 +187,7 @@ This repo collects efficient approaches for AIGC (AI Generated Content) to cope 
 - [[NeurIPS](https://arxiv.org/abs/2208.07339)] LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale
 - [[NeurIPS](https://nips.cc/Conferences/2022/Schedule?showEvent=53407)] Towards Efficient Post-training Quantization of Pre-trained Language Models
 - [[NeurIPS](https://nips.cc/Conferences/2022/Schedule?showEvent=54407)] ZeroQuant: Efficient and Affordable Post-Training Quantization for Large-Scale Transformers
+- [[NeurIPS](https://nips.cc/Conferences/2022/Schedule?showEvent=55032)] BiT: Robustly Binarized Multi-distilled Transformer [[code](https://github.com/facebookresearch/bit)]
 - [[ICLR](https://openreview.net/forum?id=5xEgrl_5FAJ)] BiBERT: Accurate Fully Binarized BERT [[code](https://github.com/htqin/BiBERT)]
 
 **Distillation**
@@ -237,8 +254,9 @@ This repo collects efficient approaches for AIGC (AI Generated Content) to cope 
 - [[CVPR](https://openaccess.thecvf.com/content/CVPR2023/papers/Shang_Post-Training_Quantization_on_Diffusion_Models_CVPR_2023_paper.pdf)] Post-training Quantization on Diffusion Models [[code](https://github.com/42Shawn/PTQ4DM)]
 - [[CVPR](https://arxiv.org/abs/2303.06424)] Regularized Vector Quantization for Tokenized Image Synthesis
 - [[ICCV](https://arxiv.org/abs/2302.04304)] Q-Diffusion: Quantizing Diffusion Models [[code](https://github.com/Xiuyu-Li/q-diffusion)]
-- [[NeurIPS](https://arxiv.org/abs/2306.02316)] Temporal Dynamic Quantization for Diffusion Models
-- [[arxiv](https://arxiv.org/abs/2305.10657)] PTQD: Accurate Post-Training Quantization for Diffusion Models [[code](https://github.com/ziplab/PTQD)]
+- [[NeurIPS](https://neurips.cc/virtual/2023/poster/70279)] Q-DM: An Efficient Low-bit Quantized Diffusion Model
+- [[NeurIPS](https://neurips.cc/virtual/2023/poster/71314)] PTQD: Accurate Post-Training Quantization for Diffusion Models [[code](https://github.com/ziplab/PTQD)]
+- [[NeurIPS](https://nips.cc/virtual/2023/poster/72396)] Temporal Dynamic Quantization for Diffusion Models
 - [[arxiv](https://arxiv.org/abs/2305.18723)] Towards Accurate Data-free Quantization for Diffusion Models
 - [[arxiv](https://arxiv.org/abs/2309.15505)] Finite Scalar Quantization: VQ-VAE Made Simple [[code](https://github.com/google-research/google-research/tree/master/fsq)]
 - [[arxiv](https://arxiv.org/abs/2310.03270)] EfficientDM: Efficient Quantization-Aware Fine-Tuning of Low-Bit Diffusion Models
