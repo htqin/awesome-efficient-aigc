@@ -13,6 +13,7 @@ This repo collects efficient approaches for AIGC (AI Generated Content) to cope 
     - [2020](#2020)
     - [2019](#2019)
   - [Vision](#vision)
+    - [2024](#2024-1)
     - [2023](#2023-1)
 
 ## Survey
