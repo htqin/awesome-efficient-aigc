@@ -6,6 +6,7 @@ This repo collects efficient approaches for AIGC (AI Generated Content) to cope 
 
   - [Survey](#survey)
   - [Language](#language)
+    - [2024](#2024)
     - [2023](#2023)
     - [2022](#2022)
     - [2021](#2021)
@@ -22,6 +23,14 @@ This repo collects efficient approaches for AIGC (AI Generated Content) to cope 
 - [[arxiv](https://arxiv.org/abs/2304.04262)] A Comprehensive Survey on Knowledge Distillation of Diffusion Models
 
 ## Language
+
+### 2024
+
+**Quantization**
+
+- [[arXiv](https://arxiv.org/abs/2402.05445)] Accurate LoRA-Finetuning Quantization of LLMs via Information Retention [[code](https://github.com/htqin/IR-QLoRA)]![GitHub Repo stars](https://img.shields.io/github/stars/htqin/IR-QLoRA)
+- [[arXiv](https://arxiv.org/abs/2402.04291)] BiLLM: Pushing the Limit of Post-Training Quantization for LLMs [[code](https://github.com/Aaronhuang-778/BiLLM)]![GitHub Repo stars](https://img.shields.io/github/stars/Aaronhuang-778/BiLLM)
+- [[arXiv](https://arxiv.org/abs/2402.11960)] DB-LLM: Accurate Dual-Binarization for Efficient LLMs
 
 ### 2023
 
@@ -256,6 +265,12 @@ This repo collects efficient approaches for AIGC (AI Generated Content) to cope 
 - [[NeurIPS](https://arxiv.org/abs/1910.01108)] DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter
 
 ## Vision
+
+### 2024
+
+**Quantization**
+
+- [[arXiv](https://arxiv.org/abs/2404.05662)] BinaryDM: Towards Accurate Binarization of Diffusion Model [[code](https://github.com/Xingyu-Zheng/BinaryDM)]![GitHub Repo stars](https://img.shields.io/github/stars/Xingyu-Zheng/BinaryDM)
 
 ### 2023
 
