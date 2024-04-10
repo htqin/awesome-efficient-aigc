@@ -15,13 +15,31 @@ This repo collects efficient approaches for AIGC (AI-Generated Content) to cope 
   - [Vision](#vision)
     - [2024](#2024-1)
     - [2023](#2023-1)
+ -  [Awesome-Repo](#Awesome-Repo)
+  
 
 ## Survey
 
-- [[JSA](https://www.sciencedirect.com/science/article/abs/pii/S1383762123001698?casa_token=1Hdz_VnQpOIAAAAA:7OGh6gYWawUHYKBZ3biSHaq-F7UaT8-7O2XFbOvK5YTkAuofrm-Fj8KNyHoe3G5wGEJTMWEA4Pnt)] A Survey of Techniques for Optimizing Transformer Inference
+- [[Arxiv](https://arxiv.org/abs/2404.01077)] Efficient Prompting Methods for Large Language Models: A Survey
+- [[Arxiv](https://arxiv.org/abs/2404.01077)] Efficient Diffusion Models for Vision: A Survey
+- [[Arxiv](https://arxiv.org/abs/2402.01799)] Faster and Lighter LLMs: A Survey on Current Challenges and Way Forward [[code](https://github.com/nyunAI/Faster-LLM-Survey)] ![GitHub Repo stars](https://img.shields.io/github/stars/nyunAI/Faster-LLM-Survey)
+- [[Arxiv](https://arxiv.org/abs/2402.13116)] A Survey on Knowledge Distillation of Large Language Models [[code](https://github.com/Tebmer/Awesome-Knowledge-Distillation-of-LLMs)] ![GitHub Repo stars](https://img.shields.io/github/stars/Tebmer/Awesome-Knowledge-Distillation-of-LLMs)
+- [[Arxiv](https://arxiv.org/abs/2402.09748)] Model Compression and Efficient Inference for Large Language Models: A Survey
+- [[Arxiv](https://arxiv.org/abs/2402.05964)] A Survey on Transformer Compression
+- [[Arxiv](https://arxiv.org/abs/2401.15347)] A Comprehensive Survey of Compression Algorithms for Language Models
+- [[Arxiv](https://arxiv.org/abs/2401.07851)] Unlocking Efficiency in Large Language Model Inference: A Comprehensive Survey of Speculative Decoding [[code](https://github.com/hemingkx/Spec-Bench)] ![GitHub Repo stars](https://img.shields.io/github/stars/hemingkx/Spec-Bench) [[Blog]](https://sites.google.com/view/spec-bench)
+- [[Arxiv](https://arxiv.org/abs/2401.05459)] Personal LLM Agents: Insights and Survey about the Capability, Efficiency and Security [[code](https://github.com/MobileLLM/Personal_LLM_Agents_Survey)] ![GitHub Repo stars](https://img.shields.io/github/stars/MobileLLM/Personal_LLM_Agents_Survey)
+- [[Arxiv](https://arxiv.org/abs/2401.09890)] A Survey on Hardware Accelerators for Large Language Models
+- [[Arxiv](https://arxiv.org/abs/2401.08092)] A Survey of Resource-efficient LLM and Multimodal Foundation Models [[code](https://github.com/UbiquitousLearning/Efficient_Foundation_Model_Survey)] ![GitHub Repo stars](https://img.shields.io/github/stars/UbiquitousLearning/Efficient_Foundation_Model_Survey)
+- [[Arxiv](https://arxiv.org/abs/2401.00625)] Beyond Efficiency: A Systematic Survey of Resource-Efficient Large Language Models [[code](https://github.com/tiingweii-shii/Awesome-Resource-Efficient-LLM-Papers)] ![GitHub Repo stars](https://img.shields.io/github/stars/tiingweii-shii/Awesome-Resource-Efficient-LLM-Papers)
+- [[Arxiv](https://arxiv.org/abs/2312.15234)] Towards Efficient Generative Large Language Model Serving: A Survey from Algorithms to Systems
+- [[Arxiv](https://arxiv.org/abs/2312.03863)] Efficient Large Language Models: A Survey [[code](https://github.com/AIoT-MLSys-Lab/Efficient-LLMs-Survey)] ![GitHub Repo stars](https://img.shields.io/github/stars/AIoT-MLSys-Lab/Efficient-LLMs-Survey)
+- [[Arxiv](https://arxiv.org/abs/2312.00678)] The Efficiency Spectrum of Large Language Models: An Algorithmic Survey [[code](https://github.com/tding1/Efficient-LLM-Survey)] ![GitHub Repo stars](https://img.shields.io/github/stars/tding1/Efficient-LLM-Survey)
+- [[Arxiv](https://arxiv.org/abs/2308.07633)] A Survey on Model Compression for Large Language Models
+- [[Arxiv](https://arxiv.org/abs/2304.04262)] A Comprehensive Survey on Knowledge Distillation of Diffusion Models
 - [[TACL](https://arxiv.org/abs/2002.11985)] Compressing Large-Scale Transformer-Based Models: A Case Study on BERT
-- [[ArXiv](https://arxiv.org/abs/2308.07633)] A Survey on Model Compression for Large Language Models
-- [[ArXiv](https://arxiv.org/abs/2304.04262)] A Comprehensive Survey on Knowledge Distillation of Diffusion Models
+- [[JSA](https://www.sciencedirect.com/science/article/abs/pii/S1383762123001698?casa_token=1Hdz_VnQpOIAAAAA:7OGh6gYWawUHYKBZ3biSHaq-F7UaT8-7O2XFbOvK5YTkAuofrm-Fj8KNyHoe3G5wGEJTMWEA4Pnt)] A Survey of Techniques for Optimizing Transformer Inference
+- [[Arxiv](https://arxiv.org/abs/2401.02038)] Understanding LLMs: A Comprehensive Overview from Training to Inference
 
 ## Language
 
@@ -356,3 +374,12 @@ This repo collects efficient approaches for AIGC (AI-Generated Content) to cope 
 
 - [[ArXiv](https://arxiv.org/abs/2309.10438)] AutoDiffusion: Training-Free Optimization of Time Steps and Architectures for Automated Diffusion Model Acceleration
 - [[ArXiv](https://arxiv.org/abs/2308.10187)] Spiking-Diffusion: Vector Quantized Discrete Diffusion Model with Spiking Neural Networks [[code](https://github.com/Arktis2022/Spiking-Diffusion)]
+
+## Awesome-Repo
+
+- https://github.com/htqin/Awesome-Model-Quantization ![GitHub Repo stars](https://img.shields.io/github/stars/htqin/awesome-model-quantization)
+- https://github.com/Zhen-Dong/Awesome-Quantization-Papers ![GitHub Repo stars](https://img.shields.io/github/stars/Zhen-Dong/Awesome-Quantization-Papers)
+- https://github.com/HuangOwen/Awesome-LLM-Compression ![GitHub Repo stars](https://img.shields.io/github/stars/HuangOwen/Awesome-LLM-Compression)
+- https://github.com/horseee/Awesome-Efficient-LLM ![GitHub Repo stars](https://img.shields.io/github/stars/horseee/Awesome-Efficient-LLM)
+- https://github.com/DefTruth/Awesome-LLM-Inference ![GitHub Repo stars](https://img.shields.io/github/stars/DefTruth/Awesome-LLM-Inference)
+- https://github.com/A-suozhang/Awesome-Efficient-Diffusion ![GitHub Repo stars](https://img.shields.io/github/stars/A-suozhang/Awesome-Efficient-Diffusion)
