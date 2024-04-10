@@ -36,19 +36,19 @@ This repo collects efficient approaches for AIGC (AI Generated Content) to cope 
 - [[ArXiv](https://arxiv.org/abs/2401.07159)] Quantized Side Tuning: Fast and Memory-Efficient Tuning of Quantized Large Language Models
 - [[ArXiv](https://arxiv.org/abs/2401.14112)] FP6-LLM: Efficiently Serving Large Language Models Through FP6-Centric Algorithm-System Co-Design
 - [[ArXiv](https://arxiv.org/abs/2401.18079)] KVQuant: Towards 10 Million Context Length LLM Inference with KV Cache Quantization
-- [[ArXiv](https://arxiv.org/abs/2402.10787)] EdgeQAT: Entropy and Distribution Guided Quantization-Aware Training for the Acceleration of Lightweight LLMs on the Edge [[code](https://github.com/shawnricecake/EdgeQAT)]
+- [[ArXiv](https://arxiv.org/abs/2402.10787)] EdgeQAT: Entropy and Distribution Guided Quantization-Aware Training for the Acceleration of Lightweight LLMs on the Edge [[code](https://github.com/shawnricecake/EdgeQAT)] ![GitHub Repo stars](https://img.shields.io/github/stars/shawnricecake/EdgeQAT)
 - [[ArXiv](https://arxiv.org/abs/2402.10517)] Any-Precision LLM: Low-Cost Deployment of Multiple, Different-Sized LLMs
 - [[ArXiv](https://arxiv.org/abs/2402.02446)] LQER: Low-Rank Quantization Error Reconstruction for LLMs
-- [[ArXiv](https://arxiv.org/abs/2402.02750)] KIVI: A Tuning-Free Asymmetric 2bit Quantization for KV Cache [[code](https://github.com/jy-yuan/KIVI)]
-- [[ArXiv](https://arxiv.org/abs/2402.04396)] QuIP#: Even Better LLM Quantization with Hadamard Incoherence and Lattice Codebooks [[code](https://github.com/Cornell-RelaxML/quip-sharp)]
+- [[ArXiv](https://arxiv.org/abs/2402.02750)] KIVI: A Tuning-Free Asymmetric 2bit Quantization for KV Cache [[code](https://github.com/jy-yuan/KIVI)] ![GitHub Repo stars](https://img.shields.io/github/stars/jy-yuan/KIVI)
+- [[ArXiv](https://arxiv.org/abs/2402.04396)] QuIP#: Even Better LLM Quantization with Hadamard Incoherence and Lattice Codebooks [[code](https://github.com/Cornell-RelaxML/quip-sharp)] ![GitHub Repo stars](https://img.shields.io/github/stars/Cornell-RelaxML/quip-sharp)
 - [[ArXiv](https://arxiv.org/abs/2402.04902)] L4Q: Parameter Efficient Quantization-Aware Training on Large Language Models via LoRA-wise LSQ
 - [[ArXiv](https://arxiv.org/abs/2402.04925)] TP-Aware Dequantization
 - [[ArXiv](https://arxiv.org/abs/2402.05147)] ApiQ: Finetuning of 2-Bit Quantized Large Language Model
 - [[ArXiv](https://arxiv.org/abs/2402.10517)] Any-Precision LLM: Low-Cost Deployment of Multiple, Different-Sized LLMs
-- [[ArXiv](https://arxiv.org/abs/2402.10631)] BitDistiller: Unleashing the Potential of Sub-4-Bit LLMs via Self-Distillation [[code](https://github.com/DD-DuDa/BitDistiller)]
+- [[ArXiv](https://arxiv.org/abs/2402.10631)] BitDistiller: Unleashing the Potential of Sub-4-Bit LLMs via Self-Distillation [[code](https://github.com/DD-DuDa/BitDistiller)] ![GitHub Repo stars](https://img.shields.io/github/stars/DD-DuDa/BitDistiller)
 - [[ArXiv](https://arxiv.org/abs/2402.11295)] OneBit: Towards Extremely Low-bit Large Language Models
 - [[ArXiv](https://arxiv.org/abs/2402.12065)] WKVQuant: Quantising Weight and Key/Value Cache for Large Language Models Gains More
-- [[ArXiv](https://arxiv.org/abs/2402.15319)] GPTVQ: The Blessing of Dimensionality for LLM Quantization [[code](https://github.com/qualcomm-ai-research/gptvq)]
+- [[ArXiv](https://arxiv.org/abs/2402.15319)] GPTVQ: The Blessing of Dimensionality for LLM Quantization [[code](https://github.com/qualcomm-ai-research/gptvq)] ![GitHub Repo stars](https://img.shields.io/github/stars/qualcomm-ai-research/gptvq)
 - [[DAC 2024](https://arxiv.org/abs/2402.14866)] APTQ: Attention-aware Post-Training Mixed-Precision Quantization for Large Language Models
 - [[DAC 2024](https://arxiv.org/abs/2402.16775)] A Comprehensive Evaluation of Quantization Strategies for Large Language Models
 - [[ArXiv](https://arxiv.org/abs/2402.18096)] No Token Left Behind: Reliable KV Cache Compression via Importance-Aware Mixed Precision Quantization
@@ -58,26 +58,26 @@ This repo collects efficient approaches for AIGC (AI Generated Content) to cope 
 - [[ArXiv](https://arxiv.org/abs/2403.01241)] IntactKV: Improving Large Language Model Quantization by Keeping Pivot Tokens Intact
 - [[ArXiv](https://arxiv.org/abs/2403.01384)] On the Compressibility of Quantized Large Language Models
 - [[ArXiv](https://arxiv.org/abs/2403.02775)] EasyQuant: An Efficient Data-free Quantization Algorithm for LLMs
-- [[ArXiv](https://arxiv.org/abs/2403.04643)] QAQ: Quality Adaptive Quantization for LLM KV Cache [[code](https://github.com/ClubieDong/QAQ-KVCacheQuantization)]
+- [[ArXiv](https://arxiv.org/abs/2403.04643)] QAQ: Quality Adaptive Quantization for LLM KV Cache [[code](https://github.com/ClubieDong/QAQ-KVCacheQuantization)] ![GitHub Repo stars](https://img.shields.io/github/stars/ClubieDong/QAQ-KVCacheQuantization)
 - [[ArXiv](https://arxiv.org/abs/2403.05527)] GEAR: An Efficient KV Cache Compression Recipefor Near-Lossless Generative Inference of LLM
 - [[ArXiv](https://arxiv.org/abs/2403.06408)] What Makes Quantization for Large Language Models Hard? An Empirical Study from the Lens of Perturbation
-- [[ArXiv](https://arxiv.org/abs/2403.07378)] SVD-LLM: Truncation-aware Singular Value Decomposition for Large Language Model Compression [[code](https://github.com/AIoT-MLSys-Lab/SVD-LLM)]
-- [[ICLR 2024](https://browse.arxiv.org/abs/2402.00858)] AffineQuant: Affine Transformation Quantization for Large Language Models [[code](https://github.com/bytedance/AffineQuant)]
+- [[ArXiv](https://arxiv.org/abs/2403.07378)] SVD-LLM: Truncation-aware Singular Value Decomposition for Large Language Model Compression [[code](https://github.com/AIoT-MLSys-Lab/SVD-LLM)] ![GitHub Repo stars](https://img.shields.io/github/stars/AIoT-MLSys-Lab/SVD-LLM)
+- [[ICLR 2024](https://browse.arxiv.org/abs/2402.00858)] AffineQuant: Affine Transformation Quantization for Large Language Models [[code](https://github.com/bytedance/AffineQuant)] ![GitHub Repo stars](https://img.shields.io/github/stars/bytedance/AffineQuant)
 - [[ICLR Practical ML for Low Resource Settings Workshop 2024](https://arxiv.org/abs/2403.18159)] Oh! We Freeze: Improving Quantized Knowledge Distillation via Signal Propagation Analysis for Large Language Models
 - [[ArXiv](https://arxiv.org/abs/2403.20137)] Accurate Block Quantization in LLMs with Outliers
-- [[ArXiv](https://arxiv.org/abs/2404.00456)] QuaRot: Outlier-Free 4-Bit Inference in Rotated LLMs [[code](https://github.com/spcl/QuaRot)]
-- [[ArXiv](https://arxiv.org/abs/2404.01892)] Minimize Quantization Output Error with Bias Compensation [[code](https://github.com/GongCheng1919/bias-compensation)]
+- [[ArXiv](https://arxiv.org/abs/2404.00456)] QuaRot: Outlier-Free 4-Bit Inference in Rotated LLMs [[code](https://github.com/spcl/QuaRot)] ![GitHub Repo stars](https://img.shields.io/github/stars/spcl/QuaRot)
+- [[ArXiv](https://arxiv.org/abs/2404.01892)] Minimize Quantization Output Error with Bias Compensation [[code](https://github.com/GongCheng1919/bias-compensation)] ![GitHub Repo stars](https://img.shields.io/github/stars/GongCheng1919/bias-compensation)
 - [[ArXiv](https://arxiv.org/abs/2404.02837)] Cherry on Top: Parameter Heterogeneity and Quantization in Large Language Models
 
 **Fine-tuning**
 
-- [[Arxiv](https://arxiv.org/abs/2402.10193)] BitDelta: Your Fine-Tune May Only Be Worth One Bit [[code](https://github.com/FasterDecoding/BitDelta)]
+- [[ArXiv](https://arxiv.org/abs/2402.10193)] BitDelta: Your Fine-Tune May Only Be Worth One Bit [[code](https://github.com/FasterDecoding/BitDelta)] ![GitHub Repo stars](https://img.shields.io/github/stars/FasterDecoding/BitDelta)
 - [[AAAI EIW Workshop 2024](https://arxiv.org/abs/2402.10462)] QDyLoRA: Quantized Dynamic Low-Rank Adaptation for Efficient Large Language Model Tuning
 
 **Other**
 
-- [[Arxiv](https://arxiv.org/abs/2401.03868)] FlightLLM: Efficient Large Language Model Inference with a Complete Mapping Flow on FPGA
-- [[Arxiv](https://arxiv.org/abs/2401.08294)] Inferflow: an Efficient and Highly Configurable Inference Engine for Large Language Models
+- [[ArXiv](https://arxiv.org/abs/2401.03868)] FlightLLM: Efficient Large Language Model Inference with a Complete Mapping Flow on FPGA
+- [[ArXiv](https://arxiv.org/abs/2401.08294)] Inferflow: an Efficient and Highly Configurable Inference Engine for Large Language Models
 
 ### 2023
 
