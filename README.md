@@ -1,6 +1,6 @@
 # Awesome Efficient AIGC [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-This repo collects efficient approaches for AIGC (AI-Generated Content) to cope with its huge demand for computing resources. We are continuously improving the project. Welcome to PR the works (papers, repositories) missed by the repo. Special thanks to [Xingyu Zheng](https://github.com/Xingyu-Zheng), [Xudong Ma](https://github.com/Macaronlin), [Yifu Ding](https://yifu-ding.github.io/#/), and all researchers who have contributed to this project!
+This repo collects efficient approaches for AI-Generated Content (AIGC) to cope with its huge demand for computing resources, including efficient Large Language Models (LLMs), Diffusion Models (DMs), etc. We are continuously improving the project. Welcome to PR the works (papers, repositories) missed by the repo. Special thanks to [Xingyu Zheng](https://github.com/Xingyu-Zheng), [Xudong Ma](https://github.com/Macaronlin), [Yifu Ding](https://yifu-ding.github.io/#/), and all researchers who have contributed to this project!
 
 ## Table of Contents
 
