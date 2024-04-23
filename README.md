@@ -47,6 +47,7 @@ This repo collects efficient approaches for AI-Generated Content (AIGC) to cope 
 
 **Quantization**
 
+- [[arXiv](https://arxiv.org/abs/2404.14047)] How Good Are Low-bit Quantized LLaMA3 Models? An Empirical Study [[code](https://github.com/Macaronlin/LLaMA3-Quantization)]![GitHub Repo stars](https://img.shields.io/github/stars/Macaronlin/LLaMA3-Quantization) [[HuggingFace](https://huggingface.co/LLMQ)]
 - [[ArXiv](https://arxiv.org/abs/2402.05445)] Accurate LoRA-Finetuning Quantization of LLMs via Information Retention [[code](https://github.com/htqin/IR-QLoRA)]![GitHub Repo stars](https://img.shields.io/github/stars/htqin/IR-QLoRA)
 - [[ArXiv](https://arxiv.org/abs/2402.04291)] BiLLM: Pushing the Limit of Post-Training Quantization for LLMs [[code](https://github.com/Aaronhuang-778/BiLLM)]![GitHub Repo stars](https://img.shields.io/github/stars/Aaronhuang-778/BiLLM)
 - [[ArXiv](https://arxiv.org/abs/2402.11960)] DB-LLM: Accurate Dual-Binarization for Efficient LLMs
